@@ -5,13 +5,18 @@ using UnityEngine.UI;
 public class HarvestGameManager : MonoBehaviour
 {
     [Header("Text")]
-    public TextMeshProUGUI alertText, timerText;
+    public TextMeshProUGUI alertText;
+
+    [Header("Timer")]
+    public TextMeshProUGUI timerText;
+    public Image timerImage;
 
     [Header("Actions")]
-    public Button waitButton, harvestButton, waterButton;
+    public Button waitButton;
+    public Button harvestButton;
+    public Button waterButton;
 
     [Header("Crop Images")]
-    // Crop visual
     public Image cropImage;
     private enum CropState { Seed, Sprout, Small, Mature, Harvestable, Dead }
     private CropState cropState = CropState.Seed;
@@ -31,13 +36,17 @@ public class HarvestGameManager : MonoBehaviour
     public Sprite normalSprite;
 
     private bool gameOver = false;
+    private bool gameStarted = false;
     private int turnCount = 0;
 
     private string currentAlert;
 
-    [Header("Settings")]
+    [Header("UI Screens")]
     public GameObject gameOverCanvas;
-    // Timer
+    public GameObject startCanvas;
+    public Button startButton;
+
+    [Header("Settings")]
     public float turnTime = 5f;   // seconds per turn
     private float currentTime;
 
@@ -48,16 +57,25 @@ public class HarvestGameManager : MonoBehaviour
         waitButton.onClick.AddListener(OnWait);
         harvestButton.onClick.AddListener(OnHarvest);
         waterButton.onClick.AddListener(OnWater);
+        startButton.onClick.AddListener(OnStartGame);
 
-        NextTurn();
+        // disable game buttons until started
+        waitButton.interactable = false;
+        harvestButton.interactable = false;
+        waterButton.interactable = false;
+
+        // show start screen at launch
+        startCanvas.SetActive(true);
+        gameOverCanvas.SetActive(false);
     }
 
     void Update()
     {
-        if (gameOver) return;
+        if (gameOver || !gameStarted) return;
 
         currentTime -= Time.deltaTime;
-        timerText.text = "Time: " + Mathf.Ceil(currentTime).ToString();
+        timerText.text = Mathf.Ceil(currentTime).ToString();
+        timerImage.fillAmount = currentTime / turnTime;
 
         if (currentTime <= 0f)
         {
@@ -65,7 +83,25 @@ public class HarvestGameManager : MonoBehaviour
         }
     }
 
-    void NextTurn()
+    void OnStartGame()
+    {
+        gameStarted = true;
+        gameOver = false;
+        turnCount = 0;
+        cropState = CropState.Seed;
+
+        startCanvas.SetActive(false);
+        gameOverCanvas.SetActive(false);
+
+        waitButton.interactable = true;
+        harvestButton.interactable = true;
+        waterButton.interactable = true;
+
+        UpdateUI();
+        NextTurn();
+    }
+
+    public void NextTurn()
     {
         if (gameOver) return;
 
@@ -123,8 +159,6 @@ public class HarvestGameManager : MonoBehaviour
         NextTurn();
     }
 
-
-
     void WrongAction()
     {
         if (cropState == CropState.Seed) cropState = CropState.Dead;
@@ -142,8 +176,6 @@ public class HarvestGameManager : MonoBehaviour
         NextTurn();
     }
 
-
-
     void UpdateUI()
     {
         switch (cropState)
@@ -157,12 +189,20 @@ public class HarvestGameManager : MonoBehaviour
         }
     }
 
-
     void EndGame()
     {
         gameOver = true;
+        gameStarted = false;
         gameOverCanvas.SetActive(true);
-        timerText.text = "Time: 0";
+        timerImage.fillAmount = 0;
+        timerText.text = "0";
         UpdateUI();
+
+        // allow restart
+        //startCanvas.SetActive(true);
+
+        waitButton.interactable = false;
+        harvestButton.interactable = false;
+        waterButton.interactable = false;
     }
 }

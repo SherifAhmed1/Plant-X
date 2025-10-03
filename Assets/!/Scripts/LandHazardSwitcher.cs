@@ -53,6 +53,7 @@ public class LandHazardSwitcher : MonoBehaviour
 
     public void SetFlood()
     {
+        grassMaterial.mainTexture = healthyGrassTexture;
         soilMaterial.mainTexture = floodTexture;
         titleText.text = "Flood";
         descriptionText.text = "Flooding covers land with excess water. Roots can suffocate, soil erodes, and farmland may be unusable for weeks.";

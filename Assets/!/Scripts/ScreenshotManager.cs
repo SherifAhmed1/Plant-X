@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -10,16 +11,16 @@ public class ScreenshotManager : MonoBehaviour
     public RawImage screenshotImage;
     byte[] imageBytesArray;
 
-    string imagePath;
-
     [SerializeField] UnityEvent OnCapture;
     [SerializeField] UnityEvent OnStartCapture;
 
     WaitForSeconds waitForSec = new(0.5f);
 
+    ScannerManager scannerManager;
+
     private void Awake()
     {
-        imagePath = Path.Combine(Application.persistentDataPath, "/image.jpg");
+        scannerManager = FindFirstObjectByType<ScannerManager>();
     }
 
     void Start()
@@ -44,35 +45,16 @@ public class ScreenshotManager : MonoBehaviour
 
         yield return waitForSec;
 
-        ScreenCapture.CaptureScreenshot("image.jpg");
+        Texture2D imageTexture = ScreenCapture.CaptureScreenshotAsTexture();
+
+        screenshotImage.texture = imageTexture;
 
         yield return waitForSec;
 
-        LoadImage();
-
-        yield return waitForSec;
+        scannerManager.StartUpload(imageTexture);
 
         OnCapture?.Invoke();
     }
-
-    void LoadImage()
-    {
-        Texture2D sampleTexture = new(0, 0);
-
-        imageBytesArray = File.ReadAllBytes(imagePath);
-
-        bool isLoaded = sampleTexture.LoadImage(imageBytesArray);
-
-        if (!isLoaded)
-        {
-            Debug.LogError("Failed to load image from bytes.");
-            return;
-        }
-
-        screenshotImage.texture = sampleTexture;
-    }
-
-
 
     //public void SaveToGallery()
     //{

@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 public class ScannerManager : MonoBehaviour
 {
-    string imagePath;
 
     [SerializeField] UnityEvent OnPredict;
 
@@ -19,26 +18,21 @@ public class ScannerManager : MonoBehaviour
     // Change this to your server endpoint
     private string uploadUrl = "https://plantx.replit.app/predict";
 
-    private void Awake()
+    public void StartUpload(Texture2D texture)
     {
-        imagePath = Path.Combine(Application.persistentDataPath, "/image.jpg");
+        StartCoroutine(Upload(texture));
     }
 
-    public void StartUpload()
-    {
-        StartCoroutine(Upload(imagePath));
-    }
-
-    private IEnumerator Upload(string imagePath)
+    private IEnumerator Upload(Texture2D texture)
     {
         Debug.Log("Start Uploading...");
 
-        // Load image bytes from file
-        byte[] imageBytes = File.ReadAllBytes(imagePath);
+        // Convert Texture2D to PNG or JPG
+        byte[] imageBytes = texture.EncodeToJPG(); // or EncodeToPNG()
 
         // Create multipart form
         WWWForm form = new();
-        form.AddBinaryData("file", imageBytes, Path.GetFileName(imagePath), "image/jpeg");
+        form.AddBinaryData("file", imageBytes, "screenshot.jpg", "image/jpeg");
 
         using UnityWebRequest www = UnityWebRequest.Post(uploadUrl, form);
         www.SetRequestHeader("accept", "application/json");
@@ -57,6 +51,7 @@ public class ScannerManager : MonoBehaviour
             Debug.LogError("Upload failed: " + www.error);
         }
     }
+
 
     private void UpdateUI(string result)
     {

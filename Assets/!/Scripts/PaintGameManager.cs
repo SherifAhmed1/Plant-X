@@ -24,7 +24,7 @@ public class PaintGameManager : MonoBehaviour
             sfxSource.Play();
         }
 
-        if (counter >= 10)
+        if (counter >= 40)
         {
             FinishGame();
         }
