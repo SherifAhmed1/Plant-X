@@ -160,7 +160,6 @@ public class HarvestGameManager : MonoBehaviour
 
     void EndGame()
     {
-        LeanTween.color(Color.brown);
         gameOver = true;
         gameOverCanvas.SetActive(true);
         timerText.text = "Time: 0";
