@@ -3,7 +3,7 @@
 **Plant-X** is an innovative mobile app designed to assist farmers, students, and researchers in analyzing and learning about farming techniques, environmental factors, and weather hazards such as drought, flood, heat, and more. It provides interactive features like mini-games, crop scanning with AI, augmented reality (AR) simulations, and data visualization to create a hands-on learning experience for users.
 
 ![App Screenshot](path_to_image/plant_x_screenshot.png)
-
+ 
 ---
 
 ## Features
