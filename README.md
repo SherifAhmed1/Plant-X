@@ -145,11 +145,3 @@ Source: https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatisti
 
 ---
 
-## Screenshots
-
-- ![App Screenshot](path_to_image/plant_x_screenshot.png)  
-- ![Scan Crops](path_to_image/scan_crops.png)  
-- ![AR Simulation](path_to_image/ar_simulation.png)  
-- ![Data Visualization](path_to_image/data_visualization.png)
-
----
