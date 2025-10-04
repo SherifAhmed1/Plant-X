@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 6b23e4e5b88997040b01df4a625b8b8e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_6
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 170
+        width: 183
+        height: 331
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df8e7d555c98cf468fb5b99d7ec90f6
+      internalID: -1947093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_10
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 170
+        width: 157
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da949c455ece5746b478e0a5e6d276a
+      internalID: -2060057931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 170
+        width: 178
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60cc447a0b88f84eb01cc99bbc15f25
+      internalID: 1617404030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 170
+        width: 178
+        height: 305
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7957e2158303ad42b3454b21f9fb6f0
+      internalID: -873526095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_19
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 171
+        width: 172
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ecccdf8014a64fa13001b2d1158ee
+      internalID: -144539446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_25
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 171
+        width: 173
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fca735ff01d16418637322041a4453
+      internalID: 1673616812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_27
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 167
+        width: 162
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137cdb2b1af1a0545b88208306454c85
+      internalID: -1238699611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_41
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 172
+        width: 173
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bdfe0fc5e1afb4da7e8b38ee0cde3f
+      internalID: 1894156713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_44
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 171
+        width: 163
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cc766d2b99dcc41bf9f87a2621aa5f
+      internalID: -1768574563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_48
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 170
+        width: 158
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38143b983485dbf45a247827cee8c9ba
+      internalID: -1706337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant-growth-seed-sprout-flower-600nw-2396899095_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 170
+        width: 167
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50bc3d6f1bbdbd4aba218aee015627d
+      internalID: 801528953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 37f6eb18c68fc9c46a751738e203479b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":157.0,"y":64.0},"gridSpriteOffset":{"x":33.0,"y":0.0},"gridSpritePadding":{"x":39.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      plant-growth-seed-sprout-flower-600nw-2396899095_0: -1407770047
+      plant-growth-seed-sprout-flower-600nw-2396899095_1: -757279074
+      plant-growth-seed-sprout-flower-600nw-2396899095_10: -2060057931
+      plant-growth-seed-sprout-flower-600nw-2396899095_100: 306779544
+      plant-growth-seed-sprout-flower-600nw-2396899095_101: -355502086
+      plant-growth-seed-sprout-flower-600nw-2396899095_102: -279516736
+      plant-growth-seed-sprout-flower-600nw-2396899095_103: 151877140
+      plant-growth-seed-sprout-flower-600nw-2396899095_104: 337392454
+      plant-growth-seed-sprout-flower-600nw-2396899095_105: -431721698
+      plant-growth-seed-sprout-flower-600nw-2396899095_11: 1617404030
+      plant-growth-seed-sprout-flower-600nw-2396899095_12: 647386166
+      plant-growth-seed-sprout-flower-600nw-2396899095_13: 696480929
+      plant-growth-seed-sprout-flower-600nw-2396899095_14: -873526095
+      plant-growth-seed-sprout-flower-600nw-2396899095_15: -1097835525
+      plant-growth-seed-sprout-flower-600nw-2396899095_16: -135890289
+      plant-growth-seed-sprout-flower-600nw-2396899095_17: -625595282
+      plant-growth-seed-sprout-flower-600nw-2396899095_18: 1833801808
+      plant-growth-seed-sprout-flower-600nw-2396899095_19: -144539446
+      plant-growth-seed-sprout-flower-600nw-2396899095_2: -1960828367
+      plant-growth-seed-sprout-flower-600nw-2396899095_20: 880076512
+      plant-growth-seed-sprout-flower-600nw-2396899095_21: -482023140
+      plant-growth-seed-sprout-flower-600nw-2396899095_22: 1153226869
+      plant-growth-seed-sprout-flower-600nw-2396899095_23: 547177978
+      plant-growth-seed-sprout-flower-600nw-2396899095_24: -1770228468
+      plant-growth-seed-sprout-flower-600nw-2396899095_25: 1673616812
+      plant-growth-seed-sprout-flower-600nw-2396899095_26: -851830572
+      plant-growth-seed-sprout-flower-600nw-2396899095_27: -1238699611
+      plant-growth-seed-sprout-flower-600nw-2396899095_28: -1633692476
+      plant-growth-seed-sprout-flower-600nw-2396899095_29: 1997345265
+      plant-growth-seed-sprout-flower-600nw-2396899095_3: 488504491
+      plant-growth-seed-sprout-flower-600nw-2396899095_30: 482688915
+      plant-growth-seed-sprout-flower-600nw-2396899095_31: -1543214152
+      plant-growth-seed-sprout-flower-600nw-2396899095_32: 1925139814
+      plant-growth-seed-sprout-flower-600nw-2396899095_33: -1214738845
+      plant-growth-seed-sprout-flower-600nw-2396899095_34: 890684746
+      plant-growth-seed-sprout-flower-600nw-2396899095_35: 1086869206
+      plant-growth-seed-sprout-flower-600nw-2396899095_36: -1142432325
+      plant-growth-seed-sprout-flower-600nw-2396899095_37: -744846919
+      plant-growth-seed-sprout-flower-600nw-2396899095_38: 6717199
+      plant-growth-seed-sprout-flower-600nw-2396899095_39: -67952631
+      plant-growth-seed-sprout-flower-600nw-2396899095_4: -201957258
+      plant-growth-seed-sprout-flower-600nw-2396899095_40: -452392700
+      plant-growth-seed-sprout-flower-600nw-2396899095_41: 1894156713
+      plant-growth-seed-sprout-flower-600nw-2396899095_42: 630669093
+      plant-growth-seed-sprout-flower-600nw-2396899095_43: 774450393
+      plant-growth-seed-sprout-flower-600nw-2396899095_44: -1768574563
+      plant-growth-seed-sprout-flower-600nw-2396899095_45: 1141316407
+      plant-growth-seed-sprout-flower-600nw-2396899095_46: 396934
+      plant-growth-seed-sprout-flower-600nw-2396899095_47: 1492254229
+      plant-growth-seed-sprout-flower-600nw-2396899095_48: -1706337903
+      plant-growth-seed-sprout-flower-600nw-2396899095_49: 1474121339
+      plant-growth-seed-sprout-flower-600nw-2396899095_5: -946357595
+      plant-growth-seed-sprout-flower-600nw-2396899095_50: 788108970
+      plant-growth-seed-sprout-flower-600nw-2396899095_51: -1378642124
+      plant-growth-seed-sprout-flower-600nw-2396899095_52: 801528953
+      plant-growth-seed-sprout-flower-600nw-2396899095_53: 1189378552
+      plant-growth-seed-sprout-flower-600nw-2396899095_54: 612188145
+      plant-growth-seed-sprout-flower-600nw-2396899095_55: 234911490
+      plant-growth-seed-sprout-flower-600nw-2396899095_56: 1359694159
+      plant-growth-seed-sprout-flower-600nw-2396899095_57: -1274410733
+      plant-growth-seed-sprout-flower-600nw-2396899095_58: -1204421954
+      plant-growth-seed-sprout-flower-600nw-2396899095_59: -2020769770
+      plant-growth-seed-sprout-flower-600nw-2396899095_6: -1947093
+      plant-growth-seed-sprout-flower-600nw-2396899095_60: 75984630
+      plant-growth-seed-sprout-flower-600nw-2396899095_61: -903421178
+      plant-growth-seed-sprout-flower-600nw-2396899095_62: 1376840509
+      plant-growth-seed-sprout-flower-600nw-2396899095_63: -1039860864
+      plant-growth-seed-sprout-flower-600nw-2396899095_64: -1427303760
+      plant-growth-seed-sprout-flower-600nw-2396899095_65: 387696120
+      plant-growth-seed-sprout-flower-600nw-2396899095_66: -244150041
+      plant-growth-seed-sprout-flower-600nw-2396899095_67: 1687537619
+      plant-growth-seed-sprout-flower-600nw-2396899095_68: -967497215
+      plant-growth-seed-sprout-flower-600nw-2396899095_69: -1816467954
+      plant-growth-seed-sprout-flower-600nw-2396899095_7: 1099634760
+      plant-growth-seed-sprout-flower-600nw-2396899095_70: -145186920
+      plant-growth-seed-sprout-flower-600nw-2396899095_71: -972158487
+      plant-growth-seed-sprout-flower-600nw-2396899095_72: -1894889556
+      plant-growth-seed-sprout-flower-600nw-2396899095_73: 64383491
+      plant-growth-seed-sprout-flower-600nw-2396899095_74: 356408942
+      plant-growth-seed-sprout-flower-600nw-2396899095_75: -179555421
+      plant-growth-seed-sprout-flower-600nw-2396899095_76: 1201723895
+      plant-growth-seed-sprout-flower-600nw-2396899095_77: -226787816
+      plant-growth-seed-sprout-flower-600nw-2396899095_78: 65700110
+      plant-growth-seed-sprout-flower-600nw-2396899095_79: 336622476
+      plant-growth-seed-sprout-flower-600nw-2396899095_8: -1029482830
+      plant-growth-seed-sprout-flower-600nw-2396899095_80: 2029460356
+      plant-growth-seed-sprout-flower-600nw-2396899095_81: -177693257
+      plant-growth-seed-sprout-flower-600nw-2396899095_82: 1945651309
+      plant-growth-seed-sprout-flower-600nw-2396899095_83: -127612621
+      plant-growth-seed-sprout-flower-600nw-2396899095_84: -68353989
+      plant-growth-seed-sprout-flower-600nw-2396899095_85: 1578775507
+      plant-growth-seed-sprout-flower-600nw-2396899095_86: -180141313
+      plant-growth-seed-sprout-flower-600nw-2396899095_87: 149102550
+      plant-growth-seed-sprout-flower-600nw-2396899095_88: 1037646299
+      plant-growth-seed-sprout-flower-600nw-2396899095_89: -2129866746
+      plant-growth-seed-sprout-flower-600nw-2396899095_9: -1857348888
+      plant-growth-seed-sprout-flower-600nw-2396899095_90: -553216604
+      plant-growth-seed-sprout-flower-600nw-2396899095_91: -403240793
+      plant-growth-seed-sprout-flower-600nw-2396899095_92: -1764783486
+      plant-growth-seed-sprout-flower-600nw-2396899095_93: 67384861
+      plant-growth-seed-sprout-flower-600nw-2396899095_94: -1461858057
+      plant-growth-seed-sprout-flower-600nw-2396899095_95: 964865250
+      plant-growth-seed-sprout-flower-600nw-2396899095_96: 175203437
+      plant-growth-seed-sprout-flower-600nw-2396899095_97: 1016351369
+      plant-growth-seed-sprout-flower-600nw-2396899095_98: -1694499364
+      plant-growth-seed-sprout-flower-600nw-2396899095_99: 1919009363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

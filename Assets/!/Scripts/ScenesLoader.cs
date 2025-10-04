@@ -9,4 +9,5 @@ public class ScenesLoader : MonoBehaviour
     public void LoadScanCrops() => ScenesManager.Instance.LoadScene("Scan Crops");
     public void LoadHarvestHero() => ScenesManager.Instance.LoadScene("Harvest Hero");
     public void LoadARSimulator() => ScenesManager.Instance.LoadScene("AR Simulator");
+    public void LoadVisualizeData() => ScenesManager.Instance.LoadScene("Visualize Data");
 }
