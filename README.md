@@ -20,21 +20,24 @@ Plant-X turns complex Earth data into hands-on learning—**demystifying satelli
 - **Drought Print** – Match regions to drought intensity colors to reveal distribution and patterns across the U.S.  
 - **Harvest Hero** – A time-bound game where you pick the right action for each hazard, guiding a plant from seed to flower.
 
+![Minigames](https://github.com/user-attachments/assets/7e88828a-e8cb-44be-bdc1-d996fb73de76)
+
+
 ### 2) Scan Crops (AI)
 Use your camera to analyze a leaf. The AI (MobileNetV2 + TensorFlow) predicts **healthy**, **rust**, or **powdery mildew**, and can provide a severity score.
 
-![Scan Crops](path_to_image/scan_crops.png)
+![Scan Crops](https://github.com/user-attachments/assets/871f63df-3b97-4dfd-938d-cdef4bf8435f)
 
 ### 3) AR Simulation
 Visualize a farm field in augmented reality under different hazard settings (e.g., **drought**, **flood**, **heat**). See how hazards affect plant growth and field layout.
 
-![AR Simulation](path_to_image/ar_simulation.png)
+![AR Simulation](https://github.com/user-attachments/assets/4847f366-a19e-4b27-87a2-5e98187b442e)
 
 ### 4) Visualize Data
 Explore **real drought intensity** across U.S. states via an interactive map, powered by NASA-supported datasets.
 
-![Data Visualization](path_to_image/data_visualization.png)
-
+![Data Visualization](https://github.com/user-attachments/assets/c2ae26a6-1522-4f1e-b5b3-a1631e733a92)
+  
 ### 5) Accessibility
 - **Audio instructions** for users who prefer listening over reading.  
 - Clear UI with simple flows for quick actions in the field.
@@ -115,7 +118,7 @@ Source: https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatisti
 ## Installation
 
 - **APK:**  
-  [Download Plant-X APK](#)
+  [Download Plant-X APK](https://drive.google.com/file/d/12cGYHx6BpgG4AfbnTRswHyFI95vnzkpP/view?usp=sharing)
 
 ---
 
